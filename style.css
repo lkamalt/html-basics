@@ -124,3 +124,18 @@ body {
 .main_circle:hover {
     background-color: #212121;
 }
+
+/* Стили страницы 5 (Hot deals) */
+.page5 {
+    height: 800px;
+    background: url(img/slider.jpg) no-repeat center center;
+    position: relative;
+}
+
+.hot_deals {
+    color: red;
+}
+
+.page5_content {
+    padding-top: 286px;
+}
