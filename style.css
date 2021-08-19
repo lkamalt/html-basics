@@ -81,14 +81,11 @@ body {
     line-height: 24px;
 }
 
-.main_button {
+.main_button, .explore_button {
     font-size: 18px;
     color: #212121;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
-    border-radius: 23px;
     width: 212px;
     height: 45px;
     line-height: 45px;
@@ -96,6 +93,12 @@ body {
     display: inline-block;
     text-decoration: none;
     letter-spacing: 3.6px;
+}
+
+.main_button {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
 }
 
 .main_pagination {
@@ -123,6 +126,34 @@ body {
 
 .main_circle:hover {
     background-color: #212121;
+}
+
+/* Стили страницы 4 (Trending products) */
+.page4 {
+    height: 1108px;
+}
+
+.page4_title {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_h1 {
+    font-size: 36px;
+    color: #212121;
+    font-weight: bold;
+}
+
+.page4_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.page4_product {
+    margin-bottom: 30px;
 }
 
 /* Стили страницы 5 (Hot deals) */
