@@ -7,6 +7,12 @@ body {
     font-family: "Montserrat";
 }
 
+.title_h1, .page2_menu {
+    font-size: 36px;
+    color: #212121;
+    font-weight: bold;
+}
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -128,6 +134,97 @@ body {
     background-color: #212121;
 }
 
+/* Стили страницы 2 (Featured) */
+.page2 {
+    height: 609px;
+}
+
+.page2_title {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page2_link {
+    color: rgb(108, 108, 108);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(108, 108, 108);
+    padding: 12px 20px
+}
+
+.page2_link:hover {
+    color: #212121;
+}
+
+.page2_link_active {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+    padding: 10px 20px
+}
+
+.page2_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.page2_product {
+    position: relative;
+}
+
+.page2_product_img {
+    display: block;
+    width: 100%;
+}
+
+.page2_product_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page2_product_overlay:hover {
+    opacity: 1;
+}
+
+.overlay_button {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay_title {
+    font-size: 22px;
+    color: #212121;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-bottom: 14px;
+}
+
+.overlay_text {
+    font-size: 14px;
+    color: rgb(108, 108, 108);
+    line-height: 21px;
+    width: 215px;
+    display: inline-block;
+}
+
 /* Стили страницы 3 */
 .page3 {
     height: 683px;
@@ -169,12 +266,6 @@ body {
     padding-bottom: 60px;
     display: flex;
     justify-content: space-between;
-}
-
-.title_h1 {
-    font-size: 36px;
-    color: #212121;
-    font-weight: bold;
 }
 
 .page4_content {
