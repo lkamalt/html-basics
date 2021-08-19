@@ -141,6 +141,11 @@ body {
     align-items: center;
 }
 
+.page3_left_content .main_text,
+.page3_right_content, .main_text {
+    width: 400px;
+}
+
 .page3_left {
     background: url(img/promo-img1.jpg) no-repeat;
 }
@@ -229,6 +234,10 @@ body {
     padding-left: 30px;
     display: flex;
     align-items: center;
+}
+
+.img_left .main_text {
+    width: 340px;
 }
 
 .img_left_content .main_trending,
