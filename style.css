@@ -255,3 +255,34 @@ body {
     font-size: 36px;
     text-transform: capitalize;
 }
+
+/* Стили страницы 7 */
+.page7 {
+    height: 516px;
+    background: url(img/back-img.jpg) no-repeat center center;
+}
+
+.page7_content .main_trending {
+    color:rgb(108, 108, 108);
+}
+
+.page7_content .main_h2 {
+    width: 500px;
+}
+
+.page7_content .main_text {
+    font-size: 22px;
+    width: 800px;
+    margin-top: 20px;
+}
+
+.page7 .container {
+    padding-top: 124px;
+}
+
+.page7_links {
+    margin-top: 36px;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
