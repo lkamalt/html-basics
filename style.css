@@ -163,10 +163,54 @@ body {
     position: relative;
 }
 
-.hot_deals {
+.page5_content .main_trending {
     color: red;
 }
 
 .page5_content {
     padding-top: 286px;
+}
+
+/* Стили страницы 6 */
+.page6 {
+    height: 810px;
+}
+
+.page6_content {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.imgs_right {
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgs_right_line1, .imgs_right_line2 {
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_left {
+    background: url(img/product-1-lg.jpg) no-repeat;
+    width: 570px;
+    height: 570px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.img_left_content .main_trending {
+    color: #1e88e5;
+}
+
+.img_left_content .main_h2 {
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: capitalize;
 }
