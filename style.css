@@ -400,3 +400,108 @@ body {
 .page7_link:hover {
     box-shadow: 0px 2px 8px 0.15px rgba(33, 33, 33, 0.7);
 }
+
+/* Стили подвала */
+.footer {
+    height: 384px;
+    width: 1366px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+}
+
+.footer .main_trending {
+    color: rgb(108, 108, 108);
+}
+
+.footer_info {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+
+.footer_contact {
+    width: 270px;
+}
+
+.footer_contact_text {
+    margin-top: 20px;
+}
+
+.footer_contact_text p:first-child {
+    width: 250px;
+}
+
+.footer_contact_text .main_text,
+.stay .main_text
+{
+    color: #212121;
+}
+
+.info_text {
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info_text_c1 p, .info_text_c2 p {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 16px;
+}
+
+.info_text_c1, .info_text_c2 {
+    width: 235px;
+}
+
+.stay {
+    width: 370px;
+}
+
+.stay .footer_text {
+    margin-top: 20px;
+}
+
+.input {
+    width: 370px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #d9dee1;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 14px;
+    margin-top: 24px;
+}
+
+.input img {
+    width: 21px;
+    height: 17px;
+}
+
+.input .maon_text {
+    color: rgb(108, 108, 108);
+}
+
+.footer_bottom {
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.footer_bottom .main_trending {
+    font-size: 12px;
+}
+
+.socials {
+    width: 132px;
+    display: flex;
+    justify-content: space-between;
+}
