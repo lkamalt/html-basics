@@ -128,6 +128,32 @@ body {
     background-color: #212121;
 }
 
+/* Стили страницы 3 */
+.page3 {
+    height: 683px;
+}
+
+.page3_left, .page3_right {
+    width: 683px;
+    height: 683px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.page3_left {
+    background: url(img/promo-img1.jpg) no-repeat;
+}
+
+.page3_right {
+    background: url(img/promo-img.jpg) no-repeat;
+}
+
+.page3 .container {
+    width: 1366px;
+    display: flex;
+}
+
 /* Стили страницы 4 (Trending products) */
 .page4 {
     height: 1108px;
@@ -205,11 +231,17 @@ body {
     align-items: center;
 }
 
-.img_left_content .main_trending {
+.img_left_content .main_trending,
+.page3_left .main_trending,
+.page3_right .main_trending
+{
     color: #1e88e5;
 }
 
-.img_left_content .main_h2 {
+.img_left_content .main_h2,
+.page3_left .main_h2,
+.page3_right .main_h2
+{
     font-weight: bold;
     font-size: 36px;
     text-transform: capitalize;
