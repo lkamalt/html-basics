@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main {
+    height: 800px;
+    background: url(img/slider-img.jpg) no-repeat center center;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 63px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_list {
+    list-style-type: none;
+}
+
+.menu_link {
+    font-size: 14px;
+    color: #8c8c8c;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu_link:hover {
+    color: #212121;
+}
+
+.menu_link_active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.main_content {
+    margin-top: 283px;
+}
+
+.main_trending {
+    font-size: 18px;
+    color: #43a047;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main_h2 {
+    font-size: 62px;
+    color: #212121;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.main_text {
+    width: 458px;
+    font-size: 14px;
+    color: rgb(108, 108, 108);
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.main_button {
+    font-size: 18px;
+    color: #212121;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.main_pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.main_circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.main_circle_active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+
+.main_circle:hover {
+    background-color: #212121;
+}
