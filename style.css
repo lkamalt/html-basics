@@ -137,8 +137,8 @@ body {
     width: 683px;
     height: 683px;
     padding-left: 50px;
-    display: flex;
-    align-items: center;
+    padding-top: 227px;
+    box-sizing: border-box;
 }
 
 .page3_left_content .main_text,
@@ -232,8 +232,8 @@ body {
     width: 570px;
     height: 570px;
     padding-left: 30px;
-    display: flex;
-    align-items: center;
+    padding-top: 185px;
+    box-sizing: border-box;
 }
 
 .img_left .main_text {
