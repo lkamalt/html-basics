@@ -473,12 +473,25 @@ body {
     margin-top: 20px;
 }
 
-.info_text_c1 p, .info_text_c2 p {
+.info_text_c1 a, .info_text_c2 a {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     color: #212121;
     margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.info_text_c1 ul, .info_text_c2 ul {
+    list-style-type: none;
+}
+
+.info_text_c1 li, .info_text_c2 li {
+    margin-bottom: 16px;
+}
+
+.info_text_c1 li:hover, .info_text_c2 li:hover {
+    text-decoration: underline;
 }
 
 .info_text_c1, .info_text_c2 {
