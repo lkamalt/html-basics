@@ -545,3 +545,83 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.contacts_top {
+    width: 1366px;
+    height: 360px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+.contacts_top .main_h2 {
+    text-transform: capitalize;
+    margin-top: 168px;
+}
+
+.contacts_main {
+    height: 563px;
+}
+
+.contacts_cards {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 71px;
+    box-sizing: border-box;
+}
+
+.contacts_card {
+    width: 370px;
+    height: 370px;
+    outline: 1px solid rgb(166, 166, 166);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 48px;
+    box-sizing: border-box;
+}
+
+.contacts_card .contacts_title {
+    font-family: Montserrat;
+    font-size: 21px;
+    color: #212121;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.contacts_card:hover {
+    box-shadow: 0px 2px 8px 0.15px rgba(33, 33, 33, 0.2);
+}
+
+.contacts_phone, .contacts_email, .contacts_adress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts_subtitle, .contacts_text {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(108, 108, 108);
+}
+
+.contacts_phone, .contacts_email {
+    margin-bottom: 20px;
+}
+
+.contacts_phone .contacts_text,
+.contacts_email .contacts_text 
+{
+    color: #212121;
+}
+
+.contacts_adress .contacts_text {
+    font-weight: 300;
+}
+
+.contacts_icon {
+    margin-bottom: 28px;
+}
