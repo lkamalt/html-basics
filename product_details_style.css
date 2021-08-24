@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('fonts/GothaProLig.woff') format('woff');
+  font-style: normal;
+  font-weight: lighter;
+}
+.main_text_style {
+  font-size: 14px;
+  color: #6c6c6c;
+  font-weight: 300;
+  line-height: 24px;
+}
+.subtitle_style {
+  font-size: 18px;
+  color: #212121;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.h2_capitalize {
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+.column_view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details_header {
+  height: 119px;
+}
+.details_menu {
+  width: 1366px;
+  height: 70px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.details_menu_list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.details_menu_link {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #212121;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6c6c6c;
+}
+.details_menu_link_active {
+  color: #212121;
+}
+.details_menu_link:hover {
+  color: #212121;
+}
+.details_main {
+  height: 841px;
+}
+.product_description {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 71px;
+}
+.description_left {
+  height: 651px;
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.description_left_imgs {
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+.description_right {
+  height: 651px;
+  width: 510px;
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description_right h2 {
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: capitalize;
+  color: #212121;
+  margin-bottom: 10px;
+}
+.description_right .main_trending {
+  color: #e53935;
+  margin-bottom: 20px;
+}
+.description_right .main_button {
+  background-color: #f44336;
+  width: 510px;
+  height: 70px;
+  border-radius: 35px;
+  margin-bottom: 51px;
+}
+.arrow {
+  margin-top: 24px;
+}
+.description_text {
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.description_text p {
+  font-family: Gotham;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 25%;
+  color: #212121;
+}
+.cost {
+  width: 237px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+.cost_big_text {
+  font-family: Gotham;
+  font-size: 72px;
+  font-weight: lighter;
+}
+.cost_small_text {
+  font-family: Gotham;
+  font-size: 36px;
+  font-weight: lighter;
+}
